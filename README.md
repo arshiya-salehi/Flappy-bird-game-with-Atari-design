@@ -1,64 +1,45 @@
-# Flappy Bird – Atari Style
+# 🎮 Flappy Bird Game (Atari Design)
 
-A retro-inspired Flappy Bird clone built with an Atari-style design.  
-This project recreates the classic endless side-scrolling game with pixelated graphics and nostalgic sounds.
-
----
-
-## Gameplay
-
-- Press a key (usually `Space` or `Up Arrow`) to make the bird flap its wings  
-- Avoid hitting the pipes or falling to the ground  
-- The game gets progressively harder as you survive longer  
-- Score increases for every pipe you successfully pass  
+A retro-inspired **Flappy Bird clone** built in **Java** with an **Atari-style design**.  
+This project recreates the addictive gameplay of Flappy Bird while giving it a nostalgic 8-bit arcade feel.
 
 ---
 
-## Features
-
-- Atari-style graphics for a vintage look  
-- Smooth side-scrolling background and obstacles  
-- Simple but challenging mechanics  
-- Score tracking during gameplay  
-- Restart and game-over screens  
-
----
-
-## Tech Stack
-
-- Python  
-- Pygame (if used for rendering and game loop)  
-- Atari-inspired design assets  
+## 🚀 Features
+- Atari-inspired pixel art and design  
+- Classic Flappy Bird mechanics (tap to fly, avoid obstacles)  
+- Simple and lightweight Java implementation  
+- Custom panel and frame classes (`Myframe.java`, `Mypanel.java`)  
+- Ready to compile and run locally
 
 ---
 
-## Getting Started
+## 🛠️ Tech Stack
+- **Language:** Java  
+- **Graphics:** Java Swing (custom `JFrame` and `JPanel`)  
+- **Assets:** Atari-style sprites (e.g., `combat2.png`)  
 
-### Prerequisites
-Make sure you have the following installed:
-- Python 3.x  
-- Pygame  
+---
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
-Run the Game
-bash
-Copy
-Edit
-python main.py
-Controls
-Spacebar or Up Arrow → Flap
+## 📂 Project Structure
+├── Main.java # Entry point of the game
+├── Myframe.java # Frame (window) setup
+├── Mypanel.java # Game loop, rendering, and logic
+├── combat2.png # Atari-style sprite asset
+├── .gitignore
+└── README.md
 
-Esc → Quit game
 
-Project Structure
-python
-Copy
-Edit
-Flappy-bird-game-with-Atari-design/
-│── assets/          # Sprites, images, sounds
-│── main.py          # Main game loop
-│── game.py          # Core game logic (if separated)
-│── requirements.txt # Dependencies
-│── README.md        # Project documentation
+
+---
+
+## ▶️ How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/Flappy-bird-game-with-Atari-design.git
+   cd Flappy-bird-game-with-Atari-design
+
+javac Main.java
+
+
+java Main
